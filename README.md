@@ -21,8 +21,8 @@ Well we can mix CLIENT SOLUTION, AND JOSUA HUMAN RESOURCE +ELLEN PSEUDO CODE LET
 
 
 
-# HI GUYS HERE IS THE REPOSITORY, I AND JOSUA MADE THE SAME CHOICE I THINK WE SHOULD WORK NOW ON THIS AND FINSIH UP
 
+#  CUSTOMER RELATIONSHIP MANAGEMENT DATABASE CUSTOMER
 
 START
 PROMPT items
@@ -77,13 +77,30 @@ INPUT ("your Home address")
 GET address 
 DISPLAY ("Thanks for trusting us, your item will be delivered by tomorrow")
            
-            
+   # HUMAN RESOURCE FUNCTION
+  
+  
+ SET Name of employee to ("Josuah")
+INPUT("Enter your name")
+IF name=Josuah
+   
+   DISPLAY("HI josuah, your attendence has been recorded")
+ELSE    
+  DISPLAY("Unknown")
+   
+   ENDIF 
+   END
+
+
+
+     
+      
+      
+      
+      
+      
            
-           
- #HUMAN RESOURCE1
- #this is Josua 
- 
- 
+# SERVICE PORTFOLIO
  
  
 
@@ -139,48 +156,21 @@ ELSE
     
 
 
-Financial return percentage = N$ 500 ÷ N$ 300 × 100
+Financial return percentage =  500 ÷  300 × 100
 End if
 Display financial 
 PRINT ("percentage=166%)
 END
 
  
+ 
+SET Name of employee to ("Josuah")
+INPUT("Enter your name")
+IF name=Josuah
+   
+   DISPLAY("HI josuah, your attendence has been recorded")
+   
+   
 
-
-
-
-GET  ItemName=array(Shampoo, ),(Fringes),(Bangs)
-
-DOWHILE( ItemName=0to2)
-
-IF products are >= 35 THEN
-
-Execute'PRODUCT SHOULD BE TRANSPORTED TO DESTINATION'
-ELSE
-Execute 'THE AMOUNT OF PRODUCT YOU SELECTED DOES NOT MEET THE MINIMUM VALUE,PLEASE WAIT TILL IT DOES'
-ELSE
-Execute'ERROR,PLEASE TRY AGAIN LATER'
-ENDIF
-STOP
-
-Write a program to calculate the store values and include the VAT
-START
-Enter num
-For e = 1 to num DO
-Enter item(e)
-Enter price
-Enter Bprice
-Enter code
-IF code = 1 THEN
-Sprice(e)= Bprice * 2.00 * 1.05
-ELSE
-Sprice(e)= Bprice * 1.00
-endif
-ENDFOR
-For e = 1 to num DO
-Print item(e)
-ENDFOR
-STOPp
 
 

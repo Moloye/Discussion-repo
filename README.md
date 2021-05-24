@@ -146,14 +146,6 @@ PRINT ("percentage=166%)
 END
 
  
- 
- 
- 
- 
-
- 
- 
- 
 
 
 
@@ -189,6 +181,6 @@ ENDFOR
 For e = 1 to num DO
 Print item(e)
 ENDFOR
-STOP
+STOPp
 
 

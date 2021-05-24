@@ -97,14 +97,14 @@ PROMPT  sellingPrice,costPrice
 GET     sellingPrice, costPrice
 
  sellingPrice = Buying_Price+ VAT
- difference_amount = sellingPrice - costPrice
+ VAT = sellingPrice - costPrice
 
-IF sellingPrice < costPrice THEN 
+IF sellingPrice <= costPrice THEN 
     PRINT("Loss was made")
 ELSE
-   IF sellingPrice > costPrice THEN 
+   IF sellingPrice => costPrice THEN 
     
-     PRINT("different_amount")
+     PRINT("You gain VAT")
      
 ENDIF
 ENDIF
@@ -116,16 +116,17 @@ END
 
 #Desk check for answer espected
 
-sellingPrice = N$ 500
-costPrice = N$ 300
-Deference amount = N$ 200
+sellingPrice = 500
+costPrice =  300
+VAT = 200
  
 Financial return percentage = 166% expect output.
+
 
 START
 
 Prompt for sellingPrice, cost_price,VAT
-READ sellingPrice = N$ 500,costPrice = N$ 3000
+READ sellingPrice =  500,costPrice =  300
 
 
 sellingPrice = 300+200 
@@ -134,11 +135,14 @@ sellingPrice = 300+200
 ELSE
     IF  sellingPrice => 300 THEN
     
-VAT = 500 - 300
-Get difference amount = N$ 6000
+    PRINT("You gain N$200")
+    
+
+
 Financial return percentage = N$ 500 ÷ N$ 300 × 100
 End if
-Display financial return percentage = 200%
+Display financial 
+PRINT ("percentage=166%)
 END
 
  
@@ -146,45 +150,6 @@ END
  
  
  
- sellingPrice = N$ 9000
-costPrice = N$ 3000
-Deference amount = N$ 6000
-Financial return percentage = 200% expect output.
-
-START
-
-Prompt for sellingPrice
-sellingPrice = N$ 9000
-Prompt for costPrice
-costPrice = N$ 3000
-5 If sellingPrice < costPrice then write 'loss was made'
-If else sellingPrice > costPrice then difference amount = N$ 9000 - N$ 3000
-Get difference amount = N$ 6000
-Financial return percentage = N$ 6000 ÷ N$ 3000 × 100
-End if
-Display financial return percentage = 200%
-END
-
-
-
-sellingPrice = N$ 9000
-costPrice = N$ 3000
-Deference amount = N$ 6000
-Financial return percentage = 200% expect output.
-
-START
-
-Prompt for sellingPrice
-sellingPrice = N$ 9000
-Prompt for costPrice
-costPrice = N$ 3000
-5 If sellingPrice < costPrice then write 'loss was made'
-If else sellingPrice > costPrice then difference amount = N$ 9000 - N$ 3000
-Get difference amount = N$ 6000
-Financial return percentage = N$ 6000 ÷ N$ 3000 × 100
-End if
-Display financial return percentage = 200%
-END
 
  
  
@@ -193,9 +158,7 @@ END
 
 
 
-PROMPT product 
-
-Get ItemName=array(Shampoo, ),(Fringes),(Bangs)
+GET  ItemName=array(Shampoo, ),(Fringes),(Bangs)
 
 DOWHILE( ItemName=0to2)
 
